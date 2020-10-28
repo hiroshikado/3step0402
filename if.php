@@ -13,6 +13,15 @@
 	</div>
 	<div class="container padding-y-20">
 		<!-- ここから -->
+		<?php 
+		$number = 200;
+		// $number = $_POST["inputVal"];
+		if ( $number > 100 ) {
+			echo "100より大きいです";
+		} else {
+			echo "100以下です";
+		}
+		?>
 		<!-- ここまで -->
 	</div>
 </body>
